@@ -8,7 +8,6 @@ body{
 
     width: auto;
     height: 70px;
-    border: solid black 1px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -19,7 +18,6 @@ body{
 .tools{
     display: flex;
     flex-direction: row;
-    border: solid black 1px;
     width: 400px;
     margin-left: 60px;
     gap: 2rem;
@@ -31,12 +29,13 @@ body{
 
 button{
     background-color: hsl(0, 0%, 98%);
+    border: 0ch;
+
 }
 
 .right{
     float: right;
     display: flex;
-    border: solid yellow 1px;
     height: 60%;
     margin-top: auto;
     margin-bottom: auto;
@@ -47,7 +46,7 @@ button{
 }
 
 .login{
-    border: 1px solid black;
+
     height: 20px;
     width: 50px;
     margin-top: auto;
@@ -85,7 +84,6 @@ button{
 .left{
     float: right;
     display: flex;
-    border: solid green 1px;
     height: 60%;
     margin-top: auto;
     margin-bottom: auto;
@@ -135,7 +133,6 @@ a:active {
  
   .features-content1 ul{
       list-style: none;
-      /* border: 1px solid black; */
       display: flex;
       width: 125px;
       height: 120px;
@@ -155,7 +152,6 @@ a:active {
 
   .features-content2 ul{
     list-style: none;
-    /* border: 1px solid black; */
     display: flex;
     width: 100px;
     height: 80px;
@@ -180,11 +176,11 @@ a:active {
          margin-bottom: auto;
          height: 30px;
 
-      border: 1px solid black;
+      
   }
 
   .drop1 , .drop2{
-      /* border: 1px solid black; */
+    
       width: 80px;
       height: 25px;
       font-size: 15px;
@@ -215,4 +211,86 @@ a:active {
     font-family: 'Epilogue' ,sans-serif;
     color: hsl(0, 0%, 41%);
 
+  }
+
+  .container{
+    
+      display: flex;
+      flex-direction: row;
+      margin-top: 4rem;
+      height: 500px;
+  }
+  .east{
+      width: 40%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .west{
+
+      width: 60%;
+
+  }
+
+  .wester{
+
+       width: 52%;
+       margin-left: auto;
+       margin-right: auto;
+       height: 500px;
+
+  }
+
+  h1{
+
+    font-family: 'Epilogue';
+    font-weight: 700px;
+    font-size: 60px;
+
+  }
+
+  #short{
+
+    font-family: 'Epilogue';
+    color: hsl(0, 0%, 41%);
+
+  }
+  .east img{
+
+      margin-left: 70px;
+      margin-right: auto;
+  
+  }
+
+  .learnmore{
+      width: 115px;
+      height: 30px;
+      border: 1px solid  hsl(0, 0%, 8%);
+      border-radius: 9px;
+      color:  hsl(0, 0%, 8%);
+      font-family:'Epilogue' ;
+      font-size: 14px;
+      font-weight: 700;
+      margin-top: 2rem;
+      margin-bottom: 3rem;
+      padding-left: 25px;
+      padding-top: 11px;
+
+  }
+
+ 
+  #biz , #audio , #meet , #maker{
+
+    
+    margin-left: 9px;
+    
+
+  }
+
+  #biz{
+      margin-left: 0px;
+      
+  }
+  #maker{
+      margin-right: 0px;
   }
