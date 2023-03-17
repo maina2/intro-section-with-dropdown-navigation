@@ -40,7 +40,47 @@ button{
     height: 60%;
     margin-top: auto;
     margin-bottom: auto;
+    width: 150px;
+    justify-content: space-between;
+    padding-left: 4px;
+    padding-right: 4px;
 }
+
+.login{
+    border: 1px solid black;
+    height: 20px;
+    width: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    font-family: 'Epilogue';
+    font-size: 14px;
+    color:  hsl(0, 0%, 8%);
+    padding-top: 5px;
+}
+.register{
+    border: 2px solid  hsl(0, 0%, 8%);
+    width: 70px;
+    height: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    color:  hsl(0, 0%, 8%);
+    font-family: 'Epilogue';
+    font-size: 14px;
+    padding-top: 9px;
+    border-radius: 9px;
+
+    
+}
+.register a{
+    color:  hsl(0, 0%, 8%);
+}
+
+.login a{
+   color:hsl(0, 0%, 8%) ; 
+}
+
 
 .left{
     float: right;
@@ -71,31 +111,69 @@ a:active {
     text-decoration: none;
 }
 
-.features-content {
+.features-content1{
     display: none; 
     border: 0ch;
 }
 
-  .tools :hover .features-content{
+  .tools :hover .features-content1{
+      display: block;
+      text-decoration: none;
+     
+  }
+
+  .features-content2{
+    display: none; 
+    border: 0ch;
+}
+
+  .tools :hover .features-content2{
       display: block;
       text-decoration: none;
      
   }
  
-  ul{
+  .features-content1 ul{
       list-style: none;
-      border: 1px solid black;
+      /* border: 1px solid black; */
       display: flex;
-      width: 100px;
+      width: 125px;
       height: 120px;
       flex-direction: column;
       padding-left: 2px;
       align-items: center;
+      margin-left: -50px;
       justify-content: space-between;
-      padding-top: 3px;
-      padding-bottom: 3px;
-      
+      padding-top: 5px;
+      border-radius: 5px;
+      padding-bottom: 5px;
+      font-family: 'Epilogue';
+      font-size: 14px;
+      box-shadow: 1px 1px 10px 2px hsl(0, 0%, 41%);
+      color: hsl(0, 0%, 41%);
   }
+
+  .features-content2 ul{
+    list-style: none;
+    /* border: 1px solid black; */
+    display: flex;
+    width: 100px;
+    height: 80px;
+    flex-direction: column;
+    padding-left: 2px;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    box-shadow: 1px 1px 10px 2px hsl(0, 0%, 41%);
+    margin-left: -30px;
+    border-radius: 5px;
+    font-family: 'Epilogue' ,sans-serif;
+    font-size: 14px;
+    color: hsl(0, 0%, 41%);
+    
+    
+}
 
   .logo{
          margin-top: auto;
@@ -108,11 +186,33 @@ a:active {
   .drop1 , .drop2{
       /* border: 1px solid black; */
       width: 80px;
-      /* height: 20px; */
+      height: 25px;
+      font-size: 15px;
+       color: hsl(0, 0%, 41%);
+       font-family: 'Epilogue' ,sans-serif;
+
 
   }
 
   li{
       padding-left: 2px;
       margin-left: 0%;
+  }
+
+  #todo , #calendar , #reminder , #planning{
+      padding-right: 8px;
+      margin-bottom: -2px;
+  }.careers , .about{
+    padding-top: 4px;
+  }
+
+  .careers a{
+    font-family: 'Epilogue' ,sans-serif;
+    color: hsl(0, 0%, 41%);
+    
+  }
+  .about a{
+    font-family: 'Epilogue' ,sans-serif;
+    color: hsl(0, 0%, 41%);
+
   }
