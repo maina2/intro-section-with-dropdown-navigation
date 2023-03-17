@@ -1,0 +1,118 @@
+body{
+    background-color: hsl(0, 0%, 98%);
+}
+
+
+
+.navbar{
+
+    width: auto;
+    height: 70px;
+    border: solid black 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+
+}
+
+.tools{
+    display: flex;
+    flex-direction: row;
+    border: solid black 1px;
+    width: 400px;
+    margin-left: 60px;
+    gap: 2rem;
+    font: 18px;
+    height: 80%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+button{
+    background-color: hsl(0, 0%, 98%);
+}
+
+.right{
+    float: right;
+    display: flex;
+    border: solid yellow 1px;
+    height: 60%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.left{
+    float: right;
+    display: flex;
+    border: solid green 1px;
+    height: 60%;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 700px;
+}
+
+.careers , .about {
+    text-decoration: none;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.features-content {
+    display: none; 
+    border: 0ch;
+}
+
+  .tools :hover .features-content{
+      display: block;
+      text-decoration: none;
+     
+  }
+ 
+  ul{
+      list-style: none;
+      border: 1px solid black;
+      display: flex;
+      width: 100px;
+      height: 120px;
+      flex-direction: column;
+      padding-left: 2px;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      
+  }
+
+  .logo{
+         margin-top: auto;
+         margin-bottom: auto;
+         height: 30px;
+
+      border: 1px solid black;
+  }
+
+  .drop1 , .drop2{
+      /* border: 1px solid black; */
+      width: 80px;
+      /* height: 20px; */
+
+  }
+
+  li{
+      padding-left: 2px;
+      margin-left: 0%;
+  }
